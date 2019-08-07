@@ -144,7 +144,7 @@ def spot_face():
                         similar_person_num = e_distance_list.index(min(e_distance_list))
                         print("Minimum e distance with person", int(similar_person_num) + 1)
 
-                        if min(e_distance_list) < 0.4:
+                        if min(e_distance_list) < 0.28:
                             # 在这里修改 person_1, person_2 ... 的名字
                             # 可以在这里改称 Jack, Tom and others
                             # Here you can modify the names shown on the camera
